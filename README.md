@@ -19,6 +19,7 @@ main:     mov [Greet],[H1]
           mov CX,[A]
           add CX,[LINK]
           add [Greet],CX
+          mov AX,[Greet]
           int RENDER
           END main
           
